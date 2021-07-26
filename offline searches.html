@@ -1,0 +1,104 @@
+<html>
+<font size="4">Offline searches</font>
+<p></br><font color="grey">Always retry offline searches</font></p><label class="switch" style="float:right;vertical-align:middle;">
+	<input class="switch-input" type="checkbox" />
+	<span class="switch-label" data-on="On" data-off="Off"></span> 
+	<span class="switch-handle"></span> 
+</label>
+<style>
+.switch {
+	position: relative;
+	display: block;
+	vertical-align: top;
+	width: 40px;
+	height: 20px;
+	padding: 0px;
+	margin: 0 10px 10px 0;
+	background: linear-gradient(to bottom, #eeeeee, #FFFFFF 25px);
+	background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF 25px);
+	border-radius: 18px;
+	box-shadow: inset 0 -1px white, inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	cursor: pointer;
+	box-sizing:content-box;
+}
+.switch-input {
+	position: absolute;
+	top: 10;
+	left:0;
+	opacity: 0;
+	box-sizing:;
+}
+.switch-label {
+	position: relative;
+	display: block;
+	height: inherit;
+	font-size: 10px;
+	text-transform: uppercase;
+	background: ;
+	border-radius: inherit;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.12), inset 0 0 2px rgba(0, 0, 0, 0.15);
+	box-sizing:content-box;
+}
+.switch-label:before, .switch-label:after {
+	position: absolute;
+	top:;
+	margin-top:;
+	line-height:;
+	-webkit-transition: inherit;
+	-moz-transition: inherit;
+	-o-transition: inherit;
+	transition: inherit;
+	box-sizing:content-box;
+
+}
+.switch-input:checked ~ .switch-label {
+	background: #87CEEB;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.switch-input:checked ~ .switch-label:before {
+	opacity: 0;
+}
+.switch-input:checked ~ .switch-label:after {
+	opacity: 0 ;
+}
+.switch-handle {
+	position: absolute;
+	top: 2px;
+	left: 4px;
+	width: 20px;
+	height: 17px;
+	background: linear-gradient(to bottom. #FFFFFF 40%, #f0f0);
+	background-image: -webkit-linear-gradient(top, #FFFFFF 40%, #f0f0f0);
+	border-radius: 100%;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.switch-handle:before {
+	content: "";
+	position: absolute;
+	background: linear-gradient(to bottom, #eeeeee, #FFFFFF);
+	background-image: -webkit-linear-gradient(top, #eeeeee, #FFFFFF);
+	border-radius: 6px;
+	box-shadow: inset 0 1px rgba(0, 0, 0, 0.02);
+}
+.switch-input:checked ~ .switch-handle {
+	left: 20px;
+	box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+ 
+/* Transition
+========================== */
+.switch-label, .switch-handle {
+	transition: All 0.3s ease;
+	-webkit-transition: All 0.3s ease;
+	-moz-transition: All 0.3s ease;
+	-o-transition: All 0.3s ease;
+}
+</style>
+
+
+
+
+
+
+<br><br><hr>
+<center></br><font style="font-size:21;"><font color="#505050">When you’re offline, Google can save your search and send you the results once you’re online again. Just turn on 'Always retry offline searches'.</center>
